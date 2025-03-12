@@ -19,13 +19,13 @@ My experimental forks, support and working is not guaranteed
 
 ### System Requirements
 
-- The **latest** version of [Fish][], currently 3.6.4. <sup><sub>[Using an older version of Fish?][]</sub></sup>
+- The **latest** version of [Fish][], currently 4.0. <sup><sub>[Using an older version of Fish?][]</sub></sup>
 - A [Nerd Font][nerd fonts] installed and enabled in your terminal (for example the [recommended font](#fonts)).
 
 Install with [Fisher][]:
 
 ```console
-fisher install IlanCosman/tide@v6
+fisher install IlanCosman/tide@v6.1
 ```
 
 <details>

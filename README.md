@@ -22,25 +22,15 @@ My experimental forks, support and working is not guaranteed
 - The **latest** version of [Fish][], currently 4.0. <sup><sub>[Using an older version of Fish?][]</sub></sup>
 - A [Nerd Font][nerd fonts] installed and enabled in your terminal (for example the [recommended font](#fonts)).
 
-Install with [Fisher][]:
+## Install manually
 
-```console
-fisher install IlanCosman/tide@v6.1
-```
-
-<details>
-  <summary>Install manually</summary>
-
-This script may not work for all use cases.
-
+1) git clone
+2) copy `completions,conf.d,functions` folder in your fish config folder
+3) run
 ```fish
-set -l _tide_tmp_dir (command mktemp -d)
-curl https://codeload.github.com/ilancosman/tide/tar.gz/v6.1 | tar -xzC $_tide_tmp_dir
-command cp -R $_tide_tmp_dir/*/{completions,conf.d,functions} $__fish_config_dir
 fish_path=(status fish-path) exec $fish_path -C "emit _tide_init_install"
 ```
 
-</details>
 
 ## Features
 
